@@ -13,9 +13,6 @@ class RepositoriesViewController: ViewController {
     /*
      ViewController에서는 View로부터 ViewModel에게 감시 대상(Observable)을 전달하고
      ViewModel의 Driver는 이를 감시 후 적절한 처리를 한다.
-     (Driver인 이유는 View에게 전달받은 Observable의 처리 결과를 다시 View들에게 바인딩(드라이브)
-     할 수 있도록 하기 위함?.. 아마도 ViewController에게 ViewModel의 output에 따른 처리를
-     위임할 의도인 것 같음)
      */
     var repositoriesViewModel: RepositoriesViewModel!
     
